@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36218" started-at="2020-11-19T20:53:42 IST" finished-at="2020-11-19T20:54:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36218" started-at="2020-11-19T20:53:42 IST" finished-at="2020-11-19T20:54:18 IST">
+      <class name="testingPackage.testJavaSourceCode">
+        <test-method status="PASS" signature="URL()[pri:0, instance:testingPackage.testJavaSourceCode@614ddd49]" name="URL" duration-ms="28387" started-at="2020-11-19T20:53:42 IST" finished-at="2020-11-19T20:54:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method status="PASS" signature="citiesSelection()[pri:0, instance:testingPackage.testJavaSourceCode@614ddd49]" name="citiesSelection" duration-ms="7769" started-at="2020-11-19T20:54:11 IST" finished-at="2020-11-19T20:54:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSelection -->
+      </class> <!-- testingPackage.testJavaSourceCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

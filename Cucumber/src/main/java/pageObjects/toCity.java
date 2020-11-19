@@ -18,13 +18,19 @@ public class toCity {
 	}
 	By destFind = By.id("ToTag");
 	By destNamesLists = By.xpath("//ul[@id='ui-id-2']//li//a");
-	
-	
-	public WebElement destFinder() 
+	public String destiThreeWords() throws IOException
 	{
+		String city= ic.destination();
+		String threeWords = null;
+		if(city.length()>3)
+		{
+			threeWords = city.substring(0, 3);
+		}
+		return threeWords;
+	}
+	public WebElement destFinder() {
 		return driver.findElement(destFind);
 	}
-	
 	public void desiredDesti() throws IOException
 	{
 		List<WebElement> destNames = driver.findElements(destNamesLists);

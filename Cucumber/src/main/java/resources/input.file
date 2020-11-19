@@ -1,0 +1,8 @@
+browser = chrome
+source = chennai
+destination = hyderabad
+dateOfDeparture = 25 november 2020
+adutls = 5
+children = 1
+infants = 1
+type = business

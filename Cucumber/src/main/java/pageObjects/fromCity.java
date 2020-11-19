@@ -23,7 +23,16 @@ public class fromCity {
 	public WebElement SrcFinder() {
 		return driver.findElement(fromCity);
 	}
-
+	public String threeWordSource() throws IOException 
+	{
+		String city= ic.source();
+		String threeWords = null;
+		if(city.length()>3)
+		{
+			threeWords = city.substring(0, 3);
+		}
+		return threeWords;
+	}
 	public void SrcSelection() throws IOException {
 		int i = 0;
 		List<WebElement> srcList = driver.findElements(cities);

@@ -14,7 +14,7 @@ public class baseClass {
 	public  WebDriver initialiseDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\PESALA\\eclipse-workspace\\ClearTripNew\\src\\main\\java\\resources\\input.file");
+		FileInputStream fis = new FileInputStream("C:\\Users\\PESALA\\git\\Cucumber_SeleniumTest\\Cucumber\\src\\main\\java\\resources\\input.file");
 		prop.load(fis);
 		String browser = prop.getProperty("browser");		
 		if(browser.contains("chrome"))

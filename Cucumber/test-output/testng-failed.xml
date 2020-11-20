@@ -5,8 +5,7 @@
     <classes>
       <class name="testingPackage.testJavaSourceCode">
         <methods>
-          <include name="citiesSelection"/>
-          <include name="URL"/>
+          <include name="d_dateOfTravel"/>
         </methods>
       </class> <!-- testingPackage.testJavaSourceCode -->
     </classes>

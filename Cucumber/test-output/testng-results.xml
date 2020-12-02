@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50473" started-at="2020-11-20T21:25:13 IST" finished-at="2020-11-20T21:26:03 IST">
+  <suite name="Default suite" duration-ms="22068" started-at="2020-12-02T18:47:53 IST" finished-at="2020-12-02T18:48:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50473" started-at="2020-11-20T21:25:13 IST" finished-at="2020-11-20T21:26:03 IST">
+    <test name="Default test" duration-ms="22068" started-at="2020-12-02T18:47:53 IST" finished-at="2020-12-02T18:48:15 IST">
       <class name="testingPackage.testJavaSourceCode">
-        <test-method status="PASS" signature="a_URL()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="a_URL" duration-ms="28081" started-at="2020-11-20T21:25:13 IST" finished-at="2020-11-20T21:25:41 IST">
+        <test-method status="PASS" signature="a_URL()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="a_URL" duration-ms="12537" started-at="2020-12-02T18:47:53 IST" finished-at="2020-12-02T18:48:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_URL -->
-        <test-method status="PASS" signature="b_sourceCity()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="b_sourceCity" duration-ms="4469" started-at="2020-11-20T21:25:41 IST" finished-at="2020-11-20T21:25:45 IST">
+        <test-method status="PASS" signature="b_sourceCity()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="b_sourceCity" duration-ms="2289" started-at="2020-12-02T18:48:06 IST" finished-at="2020-12-02T18:48:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b_sourceCity -->
-        <test-method status="PASS" signature="c_destinationCity()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="c_destinationCity" duration-ms="3483" started-at="2020-11-20T21:25:45 IST" finished-at="2020-11-20T21:25:49 IST">
+        <test-method status="PASS" signature="c_destinationCity()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="c_destinationCity" duration-ms="1867" started-at="2020-12-02T18:48:08 IST" finished-at="2020-12-02T18:48:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- c_destinationCity -->
-        <test-method status="PASS" signature="d_dateOfTravel()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="d_dateOfTravel" duration-ms="10703" started-at="2020-11-20T21:25:49 IST" finished-at="2020-11-20T21:26:00 IST">
+        <test-method status="PASS" signature="d_dateOfTravel()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="d_dateOfTravel" duration-ms="3004" started-at="2020-12-02T18:48:10 IST" finished-at="2020-12-02T18:48:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- d_dateOfTravel -->
-        <test-method status="PASS" signature="e_adults()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="e_adults" duration-ms="978" started-at="2020-11-20T21:26:00 IST" finished-at="2020-11-20T21:26:01 IST">
+        <test-method status="PASS" signature="e_adults()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="e_adults" duration-ms="652" started-at="2020-12-02T18:48:13 IST" finished-at="2020-12-02T18:48:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- e_adults -->
-        <test-method status="PASS" signature="f_childrens()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="f_childrens" duration-ms="958" started-at="2020-11-20T21:26:01 IST" finished-at="2020-11-20T21:26:02 IST">
+        <test-method status="PASS" signature="f_childrens()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="f_childrens" duration-ms="384" started-at="2020-12-02T18:48:14 IST" finished-at="2020-12-02T18:48:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_childrens -->
-        <test-method status="PASS" signature="g_infants()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="g_infants" duration-ms="579" started-at="2020-11-20T21:26:02 IST" finished-at="2020-11-20T21:26:02 IST">
+        <test-method status="PASS" signature="g_infants()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="g_infants" duration-ms="475" started-at="2020-12-02T18:48:14 IST" finished-at="2020-12-02T18:48:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- g_infants -->
-        <test-method status="PASS" signature="h_travelType()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="h_travelType" duration-ms="1111" started-at="2020-11-20T21:26:02 IST" finished-at="2020-11-20T21:26:03 IST">
+        <test-method status="PASS" signature="h_travelType()[pri:0, instance:testingPackage.testJavaSourceCode@694e1548]" name="h_travelType" duration-ms="733" started-at="2020-12-02T18:48:15 IST" finished-at="2020-12-02T18:48:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- h_travelType -->

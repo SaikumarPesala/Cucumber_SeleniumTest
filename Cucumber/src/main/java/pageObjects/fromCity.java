@@ -27,7 +27,7 @@ public class fromCity {
 	{
 		String city= ic.source();
 		String threeWords = null;
-		if(city.length()>3)
+		if(city.length()>=3)
 		{
 			threeWords = city.substring(0, 3);
 		}

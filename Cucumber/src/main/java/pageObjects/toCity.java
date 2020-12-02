@@ -22,7 +22,7 @@ public class toCity {
 	{
 		String city= ic.destination();
 		String threeWords = null;
-		if(city.length()>3)
+		if(city.length()>=3)
 		{
 			threeWords = city.substring(0, 3);
 		}
@@ -40,11 +40,11 @@ public class toCity {
 			String[] sepDestName = destName.split(",");
 			String actDestName = sepDestName[0];
 			String trimmedDestName = actDestName.trim().toLowerCase();
-			if(trimmedDestName.contains(ic.destination()))
+			if(trimmedDestName.contains(ic.destination().toLowerCase()))
 			{
 				destNames.get(j).click();
 			}
-			
+			destNames = driver.findElements(destNamesLists);
 		}
 	}
 }
